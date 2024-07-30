@@ -54,7 +54,7 @@ print(f"Service Principal ID: {sp_id}")
 # Please change parameters according to your setup!
 git_provider = "gitHub" # Put your own git provider
 git_repo = "https://github.com/merve-karali/databricks-field-genai.git" # Path to the forked repository in your git provider
-git_branch = "feature-vide-recording" # Branch to be used
+git_branch = "feature-video-recording" # Branch to be used
 notebook_path = "solutions/large-document-rag/03b-Load-Documents" # Path to the notebook that contains the code that will run during job execution
 
 # The etl job will run from git source, if you want to run this job with the Service Principal, you need to add the git credentials to that Service Principal first! Please reach out to the Workspace Admin. 
