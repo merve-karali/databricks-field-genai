@@ -33,20 +33,20 @@ config_name= "rag_chain_config"
 
 # Table/Volume Names 
 # ---------------------------
-catalog = "<put catalog name here>" # adjust to use correct catalog/ will be generated if not exist
-schema = "<put database name here>" # adjust to write to the correct db / will be generated if not exist
+catalog = "dbdemos_merve" # adjust to use correct catalog/ will be generated if not exist
+schema = "dbdemos_large_document_rag" # adjust to write to the correct db / will be generated if not exist
 
 
 # Endpoint Names
 # ---------------------------
-vector_search_endpoint_name = "<put vector search endpoint here>"# Please create Vector Search Endpoint through UI if no Endpoint exists. 
-llm_endpoint_name = "<name of the llm serving endpoint>"# Pay-per-token endpoints are probabaly the easiest to start with. If you don't have access you can integrate an external endpoint (like OpenAI) or host your own LLM with Throughput Serving. Check on Serving tab (left bottom corner) which Endpoints are available. 
-embedding_endpoint_name = "<name of the embedding model endpoint>"#  Name of the embedding model. Powerful models are available on Databricks Marketplace and can get deployed as a serving endpoint with less hardware requirements compared to LLM-serving. 
+vector_search_endpoint_name = "one-env-shared-endpoint-2"# Please create Vector Search Endpoint through UI if no Endpoint exists. 
+llm_endpoint_name = "databricks-dbrx-instruct"# Pay-per-token endpoints are probabaly the easiest to start with. If you don't have access you can integrate an external endpoint (like OpenAI) or host your own LLM with Throughput Serving. Check on Serving tab (left bottom corner) which Endpoints are available. 
+embedding_endpoint_name = "databricks-bge-large-en"#  Name of the embedding model. Powerful models are available on Databricks Marketplace and can get deployed as a serving endpoint with less hardware requirements compared to LLM-serving. 
 
 
 # Service Principal Secret Params
 #----------------------------
-secret_scope = "rag-sp"
+secret_scope = "dbdemos"
 secret_key = "rag_sp_token"
 
 # Rag Chain Model Name
