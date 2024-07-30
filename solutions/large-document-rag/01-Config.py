@@ -95,7 +95,7 @@ rag_chain_config = {
         "rag_chain_model_name": rag_chain_model_name,
         "source_volume": "source_data",
         "checkpoint_volume": "checkpoints",
-        "source_volume_path": f"/Volumes/{catalog}/{schema}/source_data/text",
+        "source_volume_path": f"/Volumes/{catalog}/{schema}/source_data",
         "checkpoint_volume_path": f"/Volumes/{catalog}/{schema}/checkpoints",
         "document_table": f"{catalog}.{schema}.{document_table_posfix}",
         "parent_table": f"{catalog}.{schema}.{document_table_posfix}_parent_splits",

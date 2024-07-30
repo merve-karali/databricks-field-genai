@@ -15,7 +15,7 @@ databricks_resources:
   rag_chain_model_name: chain_model
   schema: dbdemos_large_document_rag
   source_volume: source_data
-  source_volume_path: /Volumes/dbdemos_merve/dbdemos_large_document_rag/source_data/text
+  source_volume_path: /Volumes/dbdemos_merve/dbdemos_large_document_rag/source_data
   vector_search_endpoint_name: one-env-shared-endpoint-2
   vector_search_index: dbdemos_merve.dbdemos_large_document_rag.documents_child_splits_index
 input_example:
